@@ -4,22 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework_2</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Modak&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
       integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Modak&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
     />
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
@@ -30,6 +27,11 @@
           <a href="./index.html" class="logo logo-header"
             >Web<span class="logo-right">Studio</span></a
           >
+          <button type="button" class="mobile-menu-btn">
+            <svg class="mobile-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+            </svg>
+          </button>
           <ul class="header-flex">
             <li>
               <a href="./index.html" class="nav-section studio"> Studio </a>
@@ -124,11 +126,15 @@
       </section>
 
       <section class="about section">
-        <div class="container">
+        <div class="container about-container">
           <h2 class="about-heading">Our Team</h2>
           <ul class="about-flex">
             <li class="member-card">
-              <img src="./images/img-3.jpg" alt="Team member Mark" />
+              <img
+                srcset="./images/img-3@2x.jpg"
+                src="./images/img-3.jpg"
+                alt="Team member Mark"
+              />
               <div class="member-info">
                 <h3 class="member-name">Mark Guerrero</h3>
                 <p class="member-text">Product Designer</p>
@@ -165,7 +171,11 @@
               </div>
             </li>
             <li class="member-card">
-              <img src="./images/img-2.jpg" alt="Team member Tom" />
+              <img
+                srcset="./images/img-2@2x.jpg"
+                src="./images/img-2.jpg"
+                alt="Team member Tom"
+              />
               <div class="member-info">
                 <h3 class="member-name">Tom Ford</h3>
                 <p class="member-text">Frontend Developer</p>
@@ -202,7 +212,11 @@
               </div>
             </li>
             <li class="member-card">
-              <img src="./images/img-1.jpg" alt="Team member Camila" />
+              <img
+                srcset="./images/img-1@2x.jpg"
+                src="./images/img-1.jpg"
+                alt="Team member Camila"
+              />
               <div class="member-info">
                 <h3 class="member-name">Camila Garcia</h3>
                 <p class="member-text">Marketing</p>
@@ -239,7 +253,11 @@
               </div>
             </li>
             <li class="member-card">
-              <img src="./images/img.jpg" alt="Team member Daniel" />
+              <img
+                srcset="./images/img@2x.jpg"
+                src="./images/img.jpg"
+                alt="Team member Daniel"
+              />
               <div class="member-info">
                 <h3 class="member-name">Daniel Wilson</h3>
                 <p class="member-text">UI Designer</p>
@@ -285,7 +303,11 @@
           <ul class="port-flex">
             <li class="port-element">
               <div class="port-picture">
-                <img src="./images/img-portf-5.jpg" alt="Mobile tamplate" />
+                <img
+                  srcset="./images/img-portf-5@2x.jpg"
+                  src="./images/img-portf-5.jpg"
+                  alt="Mobile tamplate"
+                />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -299,7 +321,11 @@
             </li>
             <li class="port-element">
               <div class="port-picture">
-                <img src="./images/img-portf-4.jpg" alt="Mobile tamplate" />
+                <img
+                  srcset="./images/img-portf-4@2x.jpg"
+                  src="./images/img-portf-4.jpg"
+                  alt="Mobile tamplate"
+                />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -313,7 +339,11 @@
             </li>
             <li class="port-element">
               <div class="port-picture">
-                <img src="./images/img-portf-3.jpg" alt="Mobile tamplate" />
+                <img
+                  srcset="./images/img-portf-3@2x.jpg"
+                  src="./images/img-portf-3.jpg"
+                  alt="Mobile tamplate"
+                />
 
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -328,7 +358,11 @@
             </li>
             <li class="port-element">
               <div class="port-picture">
-                <img src="./images/img-portf-2.jpg" alt="Mobile tamplate" />
+                <img
+                  srcset="./images/img-portf-2@2x.jpg"
+                  src="./images/img-portf-2.jpg"
+                  alt="Mobile tamplate"
+                />
 
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -343,7 +377,11 @@
             </li>
             <li class="port-element">
               <div class="port-picture">
-                <img src="./images/img-portf-1.jpg" alt="Mobile tamplate" />
+                <img
+                  srcset="./images/img-portf-1@2x.jpg"
+                  src="./images/img-portf-1.jpg"
+                  alt="Mobile tamplate"
+                />
 
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -358,7 +396,11 @@
             </li>
             <li class="port-element">
               <div class="port-picture">
-                <img src="./images/img-portf.jpg" alt="Mobile tamplate" />
+                <img
+                  srcset="./images/img-portf@2x.jpg"
+                  src="./images/img-portf.jpg"
+                  alt="Mobile tamplate"
+                />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -442,7 +484,7 @@
       </div>
     </footer>
 
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
       <div class="modal">
         <button class="close" type="button">
           <svg class="icon-close" width="8" height="8">
@@ -522,6 +564,74 @@
           </div>
           <button class="button-send" type="submit">Send</button>
         </form>
+      </div>
+    </div>
+
+    <div class="mobile-menu">
+      <div class="mobile-menu-container">
+        <button type="button" class="mobile-menu-close">
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+
+        <nav class="mobile-nav-menu">
+          <ul class="mobile-nav-list">
+            <li>
+              <a href="./index.html" class="mobile-nav-link current">Studio</a>
+            </li>
+            <li><a href="" class="mobile-nav-link">Portfolio</a></li>
+            <li><a href="" class="mobile-nav-link">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <address class="mobile-contacts">
+          <ul class="mobile-contacts-list">
+            <li>
+              <a href="tel:+110001111111" class="mobile-contact-link phone"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a
+                href="mailto:info@devstudio.com"
+                class="mobile-contact-link email"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+
+        <ul class="mobile-social-list">
+          <li>
+            <a href="#" class="mobile-social-link">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mobile-social-link">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mobile-social-link">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mobile-social-link">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
