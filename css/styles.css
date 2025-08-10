@@ -917,7 +917,7 @@ img {
 /* Media */
 /* --------------------- */
 
-@media screen and (min-width: 768px) and (max-width: 1058px) {
+@media screen and (min-width: 768px) and (max-width: 1158px) {
   .container {
     min-width: 768px;
     max-width: 1058px;
@@ -949,6 +949,7 @@ img {
 
   .page-header {
     padding: 16px 16px 8px 16px;
+    width: 100%;
   }
 
   .nav {
